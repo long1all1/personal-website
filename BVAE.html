@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>课题组名称</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-image: url('header-background.jpg'); /* 更改为你的图片文件路径 */
+            background-size: contain; /* 确保图片完全显示 */
+            background-position: center; /* 图片居中显示 */
+            background-repeat: no-repeat; /* 不重复背景图片 */
+            color: #fff;
+            text-align: center;
+            height: 729px; /* 根据图片的大小调整头部的高度 */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+            padding-bottom: 80px; /* 为脚注留出足够的底部空间 */
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1></h1>
+        <p></p>
+    </header>
+    <nav>
+        <a href="#team">课题组成员</a>
+        <a href="#research">研究方向</a>
+        <a href="#projects">项目</a>
+        <a href="#publications">发表论文</a>
+        <a href="#contact">联系我们</a>
+        <a href="#resources">资源下载</a>
+        <a href="#links">友情链接</a>
+    </nav>
+    <div class="container">
+        <div id="team" class="section">
+            <h2>课题组成员</h2>
+            <p>成员列表及介绍</p>
+            <!-- 示例成员 -->
+            <p><strong>姓名:</strong> 职位, 研究领域, 联系方式</p>
+        </div>
+
+        <div id="research" class="section">
+            <h2>研究方向</h2>
+            <p>详细描述每个主要研究方向</p>
+        </div>
+
+        <div id="projects" class="section">
+            <h2>课题组项目</h2>
+            <p>项目列表及描述</p>
+        </div>
+
+        <div id="publications" class="section">
+            <h2>发表论文</h2>
+            <p>论文列表及链接</p>
+        </div>
+
+        <div id="contact" class="section">
+            <h2>联系我们</h2>
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="姓名" required>
+                <input type="email" name="email" placeholder="电子邮件" required>
+                <textarea name="message" rows="5" placeholder="留言内容" required></textarea>
+                <button type="submit">发送</button>
+            </form>
+        </div>
+
+        <div id="resources" class="section">
+            <h2>资源下载</h2>
+            <p>下载链接列表</p>
+        </div>
+
+        <div id="links" class="section">
+            <h2>友情链接</h2>
+            <p>相关机构或合作伙伴的链接</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 张腾飞教授BVAE实验室. All rights reserved.</p>
+    </footer>
+</body>
+</html>
